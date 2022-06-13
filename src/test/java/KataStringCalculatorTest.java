@@ -38,4 +38,8 @@ public class KataStringCalculatorTest {
     void resultBigNumbers(){
         Assertions.assertThat(StringCalculator.add("1001,1")).isEqualTo(1);
     }
+    @Test
+    void resulCustomDelimiters(){
+        Assertions.assertThat(StringCalculator.add("//;\n1;2")).isEqualTo(3);
+    }
 }
