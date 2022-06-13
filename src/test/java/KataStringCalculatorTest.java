@@ -23,6 +23,19 @@ public class KataStringCalculatorTest {
     void resultCommasAndNline(){
         Assertions.assertThat(StringCalculator.add("1\n2,3")).isEqualTo(6);
     }
-
-
+    @Test
+    void resultCommaToNewLine(){
+        Assertions.assertThatThrownBy(() -> StringCalculator.add("//;\\n1;2"))
+                .isInstanceOf(NumberFormatException.class);
+    }
+    @Test
+    void resultNegativeNumbersPass(){
+        Assertions.assertThatThrownBy(() -> StringCalculator.add("1,-2,-3,4"))
+                .hasMessageContaining("negatives not allowed")
+                .hasMessageContaining("-2,-3");
+    }
+    @Test
+    void resultBigNumbers(){
+        Assertions.assertThat(StringCalculator.add("1001,1")).isEqualTo(1);
+    }
 }

@@ -33,21 +33,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "build.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.KataStringCalculatorTest">
     <configuration name="KataStringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Eclipse_ex" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="KataStringCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataStringCalculatorTest.resultBigNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Eclipse_ex" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KataStringCalculatorTest" />
+      <option name="METHOD_NAME" value="resultBigNumbers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,11 +72,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KataStringCalculatorTest.resultEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KataStringCalculatorTest.resultNegativeNumbersPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Eclipse_ex" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="KataStringCalculatorTest" />
-      <option name="METHOD_NAME" value="resultEmptyString" />
+      <option name="METHOD_NAME" value="resultNegativeNumbersPass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataStringCalculatorTest.resultTwoNumbersBetween" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Eclipse_ex" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KataStringCalculatorTest" />
+      <option name="METHOD_NAME" value="resultTwoNumbersBetween" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,8 +95,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.KataStringCalculatorTest" />
+        <item itemvalue="JUnit.KataStringCalculatorTest.resultBigNumbers" />
+        <item itemvalue="JUnit.KataStringCalculatorTest.resultTwoNumbersBetween" />
+        <item itemvalue="JUnit.KataStringCalculatorTest.resultNegativeNumbersPass" />
         <item itemvalue="JUnit.KataStringCalculatorTest.resultCommasAndNline" />
-        <item itemvalue="JUnit.KataStringCalculatorTest.resultEmptyString" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +115,7 @@
       <workItem from="1655147095832" duration="781000" />
       <workItem from="1655147893841" duration="1114000" />
       <workItem from="1655149397898" duration="3583000" />
+      <workItem from="1655153228939" duration="3644000" />
     </task>
     <servers />
   </component>
