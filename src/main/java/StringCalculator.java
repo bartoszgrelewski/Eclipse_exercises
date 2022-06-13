@@ -6,10 +6,10 @@ import java.util.stream.Collectors;
 public class StringCalculator {
     public static int add(String string) {
         if(!string.isEmpty()){
-            List<Integer> numbers = Arrays.stream(string.split(","))
+            List<Integer> stringNumbers = Arrays.stream(string.split(",|\n"))
                     .map(Integer::parseInt)
                     .collect(Collectors.toList());
-            return numbers.stream()
+            return stringNumbers.stream()
                     .reduce(Integer::sum)
                     .orElseThrow();
         }
