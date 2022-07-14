@@ -14,8 +14,6 @@ public class StringCalculator {
             } else {
                 delimiter = ',';
             }
-
-
             List<Integer> stringNumbers = Arrays.stream(string.split("["+delimiter+"\n]"))
                     .map(Integer::parseInt).filter(num->num<=1000)
                     .collect(Collectors.toList());
@@ -26,7 +24,6 @@ public class StringCalculator {
         }
         return 0;
     }
-
     private static void negativesNumbers(List<Integer> stringNumbers) {
         StringBuilder stringBuilder = new StringBuilder();
         stringNumbers.stream()
